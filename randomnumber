@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main() {
+srand(time(NULL));
+
+int number = 1 + rand()%10;
+printf("My number is %d\n", number);
+
+return 0;
+}
